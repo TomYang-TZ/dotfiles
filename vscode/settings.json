@@ -1,0 +1,128 @@
+{
+    "terminal.integrated.inheritEnv": false,
+    "files.autoSave": "afterDelay",
+    "notebook.lineNumbers": "on",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 13,
+    "editor.fontSize": 14,
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.wordWrap": "on",
+    "better-comments.highlightPlainText": true,
+    "better-comments.tags": [
+    
+
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "scope": "comment",
+            "settings": {
+              "fontStyle": "italic"
+            }
+          }
+        ]
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.inlayHints.functionReturnTypes": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticSeverityOverrides": {
+
+        "reportMissingImports": "error", // missing imports marked as error
+        "reportUnusedVariable": "warning" // unused imports/vars are only warnings   
+    },
+    "python.analysis.autoImportCompletions": true,
+    "githubPullRequests.pullBranch": "never",
+    "inlineChat.showDiff": false,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "isort.check": true,
+    "isort.args": ["--profile","black"],
+	    "[python]": {
+        "editor.rulers": [88],
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "terminal.integrated.fontLigatures.enabled": true,
+    "workbench.colorTheme": "Light Modern",
+    "workbench.colorCustomizations": {
+"terminal.background":"#FAFAFA",
+"terminal.foreground":"#1B1B1B",
+"terminalCursor.background":"#FAFAFA",
+"terminalCursor.foreground":"#1B1B1B",
+"terminal.ansiBlack":"#1B1B1B",
+"terminal.ansiBlue":"#1558B0",
+"terminal.ansiBrightBlack":"#5C5C5C",
+"terminal.ansiBrightBlue":"#1A6FD4",
+"terminal.ansiBrightCyan":"#0E7567",
+"terminal.ansiBrightGreen":"#2D7E2D",
+"terminal.ansiBrightMagenta":"#8B3FAA",
+"terminal.ansiBrightRed":"#C4280E",
+"terminal.ansiBrightWhite":"#1B1B1B",
+"terminal.ansiBrightYellow":"#9B6A00",
+"terminal.ansiCyan":"#0C6B5E",
+"terminal.ansiGreen":"#247024",
+"terminal.ansiMagenta":"#7B2D96",
+"terminal.ansiRed":"#B81B07",
+"terminal.ansiWhite":"#383838",
+"terminal.ansiYellow":"#866000"
+},
+"terminal.integrated.fontFamily": "monospace",
+"terminal.integrated.tabs.defaultIcon": "add",
+"scm.alwaysShowActions": true,
+"window.density.editorTabHeight": "compact",
+"claudeCodeChat.thinking.intensity": "think-harder",
+"claudeCode.preferredLocation": "panel",
+"explorer.confirmDelete": false
+}

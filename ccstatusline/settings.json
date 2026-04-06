@@ -15,10 +15,6 @@
         "id": "04731cd0-c559-4645-bd45-8cca706da518",
         "type": "session-cost",
         "backgroundColor": "bgMagenta"
-      },
-      {
-        "id": "a98b3158-ae33-40eb-8dbc-46d342bef06f",
-        "type": "claude-session-id"
       }
     ],
     [
@@ -91,6 +87,13 @@
         "id": "799a150b-9d61-4c16-99b2-220ecdea7cca",
         "type": "current-working-dir"
       }
+    ],
+    [
+      {
+        "id": "059fcd74-36d5-4fa4-b355-edeed1d3f69e",
+        "type": "claude-session-id",
+        "backgroundColor": "bgMagenta"
+      }
     ]
   ],
   "flexMode": "full-minus-40",
@@ -102,16 +105,16 @@
   "powerline": {
     "enabled": true,
     "separators": [
-      ""
+      ""
     ],
     "separatorInvertBackground": [
       false
     ],
     "startCaps": [
-      ""
+      ""
     ],
     "endCaps": [
-      ""
+      ""
     ],
     "theme": "dracula",
     "autoAlign": false

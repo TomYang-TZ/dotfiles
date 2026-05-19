@@ -11,6 +11,13 @@
 
 ## Clean Code
 - Functions should be small, do one thing, and operate at one level of abstraction.
+- Keep functions concise, simple, clear, and well commented where intent is not obvious.
+- Do not put everything in one function; split distinct responsibilities into focused helper functions.
+
+## Implementation Quality
+- Avoid creating messy, fragile codebases. Emphasize scope control, architecture, security, and testable implementation.
+- Do not add unnecessary polish, features, or abstractions beyond what's required. Deliver exactly what's needed, cleanly.
+- Every change should leave the codebase more maintainable, not less.
 
 ## Code Changes
 - When fixing bugs or refactoring, NEVER make changes that could affect other components without first checking all references. Before editing shared state, search for all usages across the codebase with Grep.
@@ -27,6 +34,7 @@
 - Before starting work, always run `git status` and `git pull` to ensure you're on the correct branch and up to date with origin. Never assume the local branch is current.
 - Before pushing to a branch, verify the associated PR is still open and not merged — especially when switching between tasks. Check with `gh pr view` or ask the user.
 - Commit messages: simple, clear, concise. No co-author tags. No verbose explanations. Just state what changed.
+- For cosmetic/doc-only changes (emoji swaps, typo fixes, README tweaks, landing page styling), use "minor update" as the commit message.
 - When creating a PR, always create it as a draft (`gh pr create --draft`).
 
 ## Research & Verification

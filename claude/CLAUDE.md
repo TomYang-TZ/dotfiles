@@ -25,6 +25,7 @@
 
 ## Debugging
 - **Fix the source, not the symptom.** When encountering a bug, always trace to the root cause before proposing a fix. Do not add workarounds, guards, or filters that mask the underlying problem. If data is malformed, fix where it's produced — not where it's consumed. If events are duplicated, find why they're generated twice — don't deduplicate downstream.
+- For multi-stage production bugs, debug by following the event/data boundary end to end before fixing: confirm the producer emitted the expected signal, confirm the consumer received it, then trace each downstream side effect in order. Do not stop at the first fixed blocker; after identifying a root cause, reason through the next likely failure points and stale state left by failed attempts.
 
 ## UI/Visual Work
 - For UI/visual work: make ONE change at a time, then pause for user feedback. Do not batch multiple visual changes together. Never assume a visual fix is correct without confirmation.
